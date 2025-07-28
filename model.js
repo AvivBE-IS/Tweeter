@@ -1,4 +1,4 @@
-class Tweeter {
+export class Tweeter {
   #posts = [];
   #postIdCounter = 0;
   #commentIdCounter = 0;

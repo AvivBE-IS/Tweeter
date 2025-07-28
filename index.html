@@ -6,6 +6,22 @@
     <title>Document</title>
   </head>
   <body>
-    <script src="./model.js"></script>
+    <div class="post" data-id="p1">
+      <div class="post-text">Post content here</div>
+      <div class="delete" data-id="p1">Delete Post</div>
+      <div class="comments">
+        <div class="comment" data-id="c1">Comment text</div>
+        <div class="delete-comment" data-id="c1">X</div>
+        <!-- More comments... -->
+      </div>
+      <input
+        type="text"
+        placeholder="Got something to say?"
+        class="comment-input"
+      />
+      <button class="comment-button">Comment</button>
+    </div>
+
+    <script src="./main.js"></script>
   </body>
 </html>
